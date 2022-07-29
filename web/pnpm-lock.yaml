@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/react': ^18.0.15
-  '@types/react-dom': ^18.0.6
-  '@vitejs/plugin-react': ^2.0.0
+  '@types/react': 18.0.15
+  '@types/react-dom': 18.0.6
+  '@vitejs/plugin-react': 2.0.0
   lib: file:../lib/pkg
-  react: ^18.2.0
-  react-dom: ^18.2.0
-  typescript: ^4.6.4
-  vite: ^3.0.0
+  react: 18.2.0
+  react-dom: 18.2.0
+  typescript: 4.7.4
+  vite: 3.0.4
 
 dependencies:
   lib: link:../lib/pkg
@@ -18,9 +18,9 @@ dependencies:
 devDependencies:
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
-  '@vitejs/plugin-react': 2.0.0_vite@3.0.3
+  '@vitejs/plugin-react': 2.0.0_vite@3.0.4
   typescript: 4.7.4
-  vite: 3.0.3
+  vite: 3.0.4
 
 packages:
 
@@ -345,7 +345,7 @@ packages:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
-  /@vitejs/plugin-react/2.0.0_vite@3.0.3:
+  /@vitejs/plugin-react/2.0.0_vite@3.0.4:
     resolution: {integrity: sha512-zHkRR+X4zqEPNBbKV2FvWSxK7Q6crjMBVIAYroSU8Nbb4M3E5x4qOiLoqJBHtXgr27kfednXjkwr3lr8jS6Wrw==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -358,7 +358,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.9
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.0.3
+      vite: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -845,8 +845,8 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite/3.0.3:
-    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
+  /vite/3.0.4:
+    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
