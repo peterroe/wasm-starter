@@ -7,8 +7,5 @@ extern {
 
 #[wasm_bindgen]
 pub fn greet(num: i32) {
-    for i in 0..num {
-        let str = format!("Hello, {}!", i);
-    }
     alert("Hello, wasm-rs!");
-}
+}d
