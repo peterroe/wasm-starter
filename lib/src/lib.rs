@@ -8,4 +8,4 @@ extern {
 #[wasm_bindgen]
 pub fn greet(num: i32) {
     alert("Hello, wasm-rs!");
-}d
+}
