@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  concurrently: ^7.3.0
+  concurrently: 7.3.0
 
 devDependencies:
   concurrently: 7.3.0
