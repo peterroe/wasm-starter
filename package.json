@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \" cd web && pnpm i\" \"npm run build:lib\" \"npm run dev \"",
+    "start": "npm run build:lib && cd web && pnpm i && npm run dev",
     "dev": "cd web && npm run dev",
     "build": "cd web && npm run build",
     "build:lib": "cd lib && wasm-pack build --target web"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "7.3.0"
-  }
+  "license": "ISC"
 }
