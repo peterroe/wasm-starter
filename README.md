@@ -1,6 +1,6 @@
 ## wasm-starter
 
-A template to help you start a new wasm project.
+A template to help you start a new wasm(Rust) project.
 
 ## Usage
 
